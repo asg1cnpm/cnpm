@@ -1,0 +1,96 @@
+1.1
+context: 
+-thời đại 4.0
+-riêng tư khách hàng
+-hạn chế tiếp xúc do dịch bệnh
+bên liên quan:
+-chủ
+-khách
+-đầu bếp
+-thu ngân
+-bồi bàn
+
+dự kiến:
+-NHÀ HÀNG
+-màn hình POS truyền thống
+-có mã QR (cho số bàn)
+-menu, giá, mô tả, hình ảnh
+-thời gian order, hoàn thành
+-lịch sử lưu trên thiết bị (?)
+-giao diện cho riêng bên bán / mua (?)
+
+-trà sữa thêm kim chi
+
+phạm vi:
+-300 đơn
+---------------------------------------------------------------------
+1.2
+-functional 
+	tổng tiền
+	tổng thời gian
+	đơn
+	số bàn
+	yêu cầu thêm, upsize
+	voucher
+	note
+	
+-non-functional (đặc tính: hiệu suất, security, giao diện thân thiện,...)
+	<HẾT HÀNG>
+	chia order theo bàn -> bill chung riêng
+	ghép bàn -> còn cái nịt
+	chia hóa đơn?
+
+(tình huống md:
+	quét chung mã xong một bên tính tiền
+)-------> 1 bàn 1 mã QR, tính tiền riêng theo thiết bị
+
+---------------------------------------------------------------------
+1.3 Tính năng : chọn món - tính tiền
+<chọn món>
+-nếu order > 0 thì hiện
+-nếu order = 0 thì biến mất trong giỏ hàng
+-lựa chọn thêm:
+	thanh toán chung / riêng
+
+
+
+-chốt -> hóa đơn
+<tính tiền>
+
+
+[clerk]
+[customer]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
