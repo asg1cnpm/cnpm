@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'data.dart';
-import 'main.dart';
 
 List<Tab> categoryTabGenerator(double height) {
   List<Tab> list = [];
