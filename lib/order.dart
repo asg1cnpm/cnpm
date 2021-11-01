@@ -7,10 +7,11 @@ import 'cart_item_list.dart';
 import 'package:provider/provider.dart';
 import 'data.dart';
 import 'check_out.dart';
+// import 'login.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+// void main() {
+//   runApp(const MyApp());
+// }
 
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   // Override behavior methods and getters like dragDevices
@@ -21,8 +22,8 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
       };
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class Order extends StatelessWidget {
+  const Order({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -36,14 +37,14 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HomePage(),
+        home: const OrderPage(),
       ),
     );
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class OrderPage extends StatelessWidget {
+  const OrderPage({Key? key}) : super(key: key);
 
   final double _height = 700, _width = 1000;
 
