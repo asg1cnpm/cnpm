@@ -1,0 +1,26 @@
+Task 1: Requirement elicitation
+The team needs to perform the following tasks:
+• Task 1.1. Identify the context of this project. Who are relevant stakeholders? What are expected to be done? What are the scope of the project?
+• Task 1.2. Describe all functional and non-functional equirements of the desired system.
+Draw a use-case diagram for the whole system
+• Task 1.3. Choose one specific feature, i.e. food ordering, table reservation, customer management. Draw its use-case diagram and describe the use-case using a table format
+
+Nhiệm vụ 1: Mô tả
+Nhóm cần thực hiện các nhiệm vụ sau:
+• Nhiệm vụ 1.1. Xác định bối cảnh của dự án này. Các bên liên quan có liên quan là ai? Những gì dự kiến sẽ được thực hiện? Phạm vi của dự án là gì?
+
+• Nhiệm vụ 1.2. Mô tả tất cả các trang bị chức năng và phi chức năng của hệ thống mong muốn.
+Vẽ sơ đồ use-case cho toàn bộ hệ thống
+
+• Nhiệm vụ 1.3. Chọn một tính năng cụ thể, tức là đặt thức ăn, đặt bàn, quản lý khách hàng. Vẽ biểu đồ use-case và mô tả use-case sử dụng bằng cách sử dụng định dạng bảng.
+
+
+
+
+
+
+
+
+
+
+ 
