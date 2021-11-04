@@ -126,7 +126,7 @@ class AddToCart extends StatelessWidget {
                                             .watch<SelectedItemProvider>()
                                             .tempDetailQuantity
                                             .toString(),
-                                        style: TextStyle(fontSize: 40),
+                                        style: const TextStyle(fontSize: 40),
                                       ),
                                       _increaseButton(context),
                                     ],
