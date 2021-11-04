@@ -32,7 +32,7 @@ class Order extends StatelessWidget {
       create: (context) => SelectedItemProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'POS',
         scrollBehavior: MyCustomScrollBehavior(),
         theme: ThemeData(
           primarySwatch: Colors.blue,
