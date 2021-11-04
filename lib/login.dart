@@ -157,13 +157,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: _width * 0.3,
                       child: passwordField),
                   SizedBox(
-                      height: _height * 0.1,
-                      width: _width * 0.1,
+                      height: _height * 0.05,
+                      width: _width * 0.3,
                       child: loginButon),
-                  SizedBox(height: _height * 0.1, width: _width * 0.1),
+                  SizedBox(height: 20),
                   SizedBox(
-                      height: _height * 0.1,
-                      width: _width * 0.1,
+                      height: _height * 0.05,
+                      width: _width * 0.3,
                       child: guestButton)
                 ],
               ),
