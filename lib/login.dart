@@ -38,12 +38,8 @@ Widget loginScreen(BuildContext context) {
       padding: const EdgeInsets.fromLTRB(2, 1, 2, 1),
       onPressed: () {
         if (authenticate()) {
-          // Navigator.push(
-          //   context,
-          //   MaterialPageRoute(builder: (context) => const Order()),
-          // );
           Navigator.of(context)
-              .push(MaterialPageRoute(builder: (context) => const Order()));
+              .push(MaterialPageRoute(builder: (context) => const OrderPage()));
         }
       },
       child: Text("Login",
@@ -59,12 +55,8 @@ Widget loginScreen(BuildContext context) {
     child: MaterialButton(
       padding: const EdgeInsets.fromLTRB(2, 1, 2, 1),
       onPressed: () {
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(builder: (context) => const Order()),
-        // );
         Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => const Order()));
+            .push(MaterialPageRoute(builder: (context) => const OrderPage()));
       },
       child: Text("Order now",
           textAlign: TextAlign.center,

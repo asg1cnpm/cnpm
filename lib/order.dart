@@ -1,47 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:pos/dish_item.dart';
 import 'return_button.dart';
-import 'dart:ui';
 import 'dine_in.dart';
 import 'cart_item_list.dart';
-import 'package:provider/provider.dart';
-import 'data.dart';
 import 'check_out.dart';
-// import 'login.dart';
 
-// void main() {
-//   runApp(const MyApp());
-// }
-
-class MyCustomScrollBehavior extends MaterialScrollBehavior {
-  // Override behavior methods and getters like dragDevices
-  @override
-  Set<PointerDeviceKind> get dragDevices => {
-        PointerDeviceKind.touch,
-        PointerDeviceKind.mouse,
-      };
-}
-
-class Order extends StatelessWidget {
-  const Order({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => SelectedItemProvider(),
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'POS',
-        scrollBehavior: MyCustomScrollBehavior(),
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const OrderPage(),
-      ),
-    );
-  }
-}
 
 class OrderPage extends StatelessWidget {
   const OrderPage({Key? key}) : super(key: key);
